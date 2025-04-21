@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 30px auto;
+}
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+th, td {
+    border: 2px solid #0b0b0b;
+    padding: 10px;
+    text-align: center;
+} 
+th {
+    background-color: #5c5a5a;
+    color: white;
+}
+.break {
+    background-color: #f4f4bf;
+    font-weight: bold;
+} 
+.holiday {
+    background-color: #f0bbb7;
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #077646;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  nav {
+    background: #3bd793;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    color: #fff;
+    padding: 1rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  #gallery img {
+    width: 100%;
+    max-width: 450px;
+    margin: 1rem;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input, textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  button {
+    background: #c11010;
+    color: #fff;
+    padding: 0.7rem;
+    cursor: pointer;
+  }

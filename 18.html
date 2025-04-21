@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+ <link rel="stylesheet" href="18.css">
+  
+</head>
+<body>
+  
+  <h2 >Registration Form</h2>
+
+  <form action="#" method="post" enctype="multipart/form-data">
+    
+  
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="3" required></textarea><br><br>
+    
+ 
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+    
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label><br><br>
+    
+   
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    
+    
+    <label for="country">Country:</label><br>
+    <select id="country" name="country" required>
+      <option value="">--Select Country--</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      <option value="india">Nepal</option>
+      <option value="canada">Canada</option>
+      <option value="australia">Australia</option>
+    </select><br><br>
+    
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4"></textarea><br><br>
+    
+    
+    <label for="image">Upload Image:</label><br>
+    <input type="file" id="image" name="image" accept="image/*"><br><br>
+    
+  
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">I accept the Terms and Conditions</label><br><br>
+    
+   
+    <input type="submit" value="Register">
+    <input type="reset" value="Cancel">
+
+  </form>
+</body>
+</html>
